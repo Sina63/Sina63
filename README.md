@@ -8,9 +8,9 @@ I turn ideas into working prototypes, test them on the bench, and share what I l
 
 ---
 
-## ⚙️ Motor Test Bench
+## ⚙️ DIY Motor Dynamometer
 
-A Raspberry Pi motor dynamometer with automatic load switching and a live browser dashboard.
+I built a Raspberry Pi dynamometer (dyno) to measure how DC motors perform under load. It switches loads automatically and displays the results live in a browser.
 
 The motor drives a generator. Relays change the resistor load while sensors record speed, voltage, current, and reaction force. Each test is saved for review.
 
@@ -36,3 +36,4 @@ A DIY carbon fiber winding machine built on a budget of around $500.
 ---
 
 Build. Test. Improve. Repeat.
+
