@@ -8,7 +8,7 @@ I turn ideas into working prototypes, test them on the bench, and share what I l
 
 ---
 
-## ⚙️ DIY Motor Dynamometer
+## ⚙️ DIY Dynamometer (for Testing Small DC Motors)
 
 I built a Raspberry Pi dynamometer (dyno) to measure how DC motors perform under load. It switches loads automatically and displays the results live in a browser.
 
