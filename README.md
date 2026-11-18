@@ -24,7 +24,13 @@ A dynamometer (dyno) applies a controlled load to a motor while it runs. In this
 
 ## 🧵 DIY Carbon Fiber Winder Using Raspberry Pi
 
-A DIY carbon fiber winding machine built on a budget of around $500.
+**Goal:** Make custom carbon fiber tubes that put strength and stiffness where they’re needed while keeping weight down. A standard tube has a fixed layup; a programmable winder lets me design the layup around the job.
+
+A filament winder wraps continuous carbon fiber around a rotating form called a mandrel. I built this machine for around **$500** and wrote Raspberry Pi software to coordinate the mandrel and fiber guide, so I can choose the winding angle and repeat a pattern.
+
+- **Choose the fiber angle:** More axial fiber can help with bending stiffness, while angled layers can be used to carry twisting loads.
+- **Put material where it matters:** Add wraps to build thickness around a joint or a high-load section, and use fewer layers elsewhere to save weight. Designs that need different properties on opposite sides require a winding pattern or added reinforcement that can target those areas.
+- **Build for the application:** Tailor the tube to the loads it will see in a lightweight drone, robot, or aerospace prototype. Flight hardware would need separate testing and qualification.
 
 **[Explore the project →](https://github.com/Sina63/500-dollar-carbon-fiber-winder)**
 
