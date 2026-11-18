@@ -25,7 +25,7 @@ I worked through sensor wiring faults, corrected relay mapping, fixed a calibrat
 
 </details>
 
-Build files, photos, and CAD exports are prepared; their upload is still in progress.
+**[Explore the project →](https://github.com/Sina63/raspberry-pi-motor-dyno/tree/main)**
 
 ## 🧵 DIY Carbon Fiber Winder Using Raspberry Pi
 
