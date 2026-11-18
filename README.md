@@ -10,20 +10,15 @@ I turn ideas into working prototypes, test them on the bench, and share what I l
 
 ## ⚙️ DIY Motor Dynamometer Using Raspberry Pi
 
-I built a Raspberry Pi dynamometer (dyno) to measure how DC motors perform under load. It switches loads automatically and displays the results live in a browser.
+**Goal:** Find out how a DC motor performs under different loads and supply voltages, and identify where it delivers the most useful shaft power for the electricity it draws.
 
-The motor drives a generator. Relays change the resistor load while sensors record speed, voltage, current, and reaction force. Each test is saved for review.
+A dynamometer (dyno) applies a controlled load to a motor while it runs. In this build, the motor drives a generator, and a Raspberry Pi switches resistor loads in steps. Repeat the sweep at different supply voltages to compare how the motor behaves.
 
-**Built with:** Raspberry Pi, Python, INA226, HX711, relays, and custom 3D-printed parts.
+- **Measure:** shaft speed (RPM), motor voltage, current, and reaction force at each load setting.
+- **Calculate:** torque from the reaction force, shaft power from torque and speed, and electrical input power from voltage and current.
+- **Compare:** estimated efficiency (shaft power ÷ electrical input power) across loads, RPMs, and voltages. The dashboard shows live readings and saves each run.
 
-**Real test:** at a 6 V supply setting, speed fell from about **5,040 to 3,830 RPM** as current rose from **0.48 to 1.90 A**. Torque and efficiency estimates remain provisional.
-
-<details>
-<summary>What I learned</summary>
-
-I worked through sensor wiring faults, corrected relay mapping, fixed a calibration-distance mistake, and improved the dashboard through testing on the actual hardware.
-
-</details>
+**Example:** In a 6 V sweep, speed fell from about **5,040 to 3,830 RPM** while current rose from **0.48 to 1.90 A**. Torque and efficiency estimates are provisional until the torque measurement is independently verified.
 
 **[Explore the project →](https://github.com/Sina63/raspberry-pi-motor-dyno/tree/main)**
 
