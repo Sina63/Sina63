@@ -8,7 +8,7 @@ I turn ideas into working prototypes, test them on the bench, and share what I l
 
 ---
 
-## ⚙️ DIY Dynamometer (for Testing Small DC Motors)
+## ⚙️ DIY Motor Dynamometer Using Raspberry Pi
 
 I built a Raspberry Pi dynamometer (dyno) to measure how DC motors perform under load. It switches loads automatically and displays the results live in a browser.
 
@@ -27,7 +27,7 @@ I worked through sensor wiring faults, corrected relay mapping, fixed a calibrat
 
 Build files, photos, and CAD exports are prepared; their upload is still in progress.
 
-## 🧵 $500 Carbon Fiber Winder
+## 🧵 DIY Carbon Fiber Winder Using Raspberry Pi
 
 A DIY carbon fiber winding machine built on a budget of around $500.
 
